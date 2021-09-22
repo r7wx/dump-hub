@@ -1,0 +1,14 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.selected-column {
+  background-color: #d7fcd5cc !important;
+}
+
+.column-button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.search {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: 0 0;
+  height: 50px;
+  color: #000;
+  border-bottom: 0.05rem solid #000;
+  display: inline-block;
+  padding: 0 0.3rem;
+  font-size: 0.65rem;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,11 @@
+.selected-files {
+  margin-top: 1em;
+}
+
+.error-text {
+  color: red;
+}
+
+.success-text {
+  color: green;
+}

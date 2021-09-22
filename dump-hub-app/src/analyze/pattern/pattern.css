@@ -1,0 +1,6 @@
+.parser-input {
+  border: none;
+  border-bottom: 2px solid hsl(198, 0%, 27%);
+  width: 3em;
+  background-color: #fafafa;
+}

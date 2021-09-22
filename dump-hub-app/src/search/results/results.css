@@ -1,0 +1,18 @@
+.no-items {
+  padding: 4em;
+  align-items: center;
+  text-align: center;
+}
+
+.entry {
+  text-align: left;
+}
+
+.entry-link {
+  text-decoration: underline;
+}
+
+.entry-link:hover {
+  cursor: pointer;
+  color: #d91468;
+}

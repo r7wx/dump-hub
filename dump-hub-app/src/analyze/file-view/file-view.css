@@ -1,0 +1,22 @@
+.folder {
+  text-align: left !important;
+  background-color: hsl(198, 0%, 0%);
+  color: white;
+}
+
+.entry {
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.entry:hover {
+  background-color: hsl(198, 0%, 95%);
+}
+
+.selected {
+  background-color: #dff0cf;
+}
+
+.selected:hover {
+  background-color: #dff0cf;
+}

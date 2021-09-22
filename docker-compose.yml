@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+  elasticsearch:
+    image: "elasticsearch:7.11.1"
+    container_name: "dump-hub-elastic"
+    restart: always
+    networks:
+      - dh-net
+    expose:
+      - 9200
+    environment:
+      discovery.type: single-node
+    volumes:
+      - "./volumes/data:/usr/share/elasticsearch/data"
+
+  dump-hub-be:
+    build: ./dump-hub
+    container_name: "dump-hub-be"
+    restart: always
+    networks:
+      - dh-net
+    expose:
+      - 8080
+    depends_on:
+      - elasticsearch
+    volumes:
+      - "./volumes/uploads:/opt/uploads"
+      - "./volumes/logs:/var/log/dump-hub"
+
+  dump-hub-app:
+    build: ./dump-hub-app
+    container_name: "dump-hub-app"
+    restart: always
+    networks:
+      - dh-net
+    ports:
+      - "443:443"
+    depends_on:
+      - dump-hub-be
+    volumes:
+      - "./configs/dump-hub.conf:/etc/nginx/conf.d/default.conf"
+
+networks:
+  dh-net:
+    driver: bridge

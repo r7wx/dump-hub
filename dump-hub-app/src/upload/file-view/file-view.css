@@ -1,0 +1,27 @@
+.folder-header {
+  text-align: left !important;
+  background-color: hsl(198, 0%, 0%);
+  color: white;
+}
+
+.file {
+  text-align: left !important;
+}
+
+.delete-button {
+  text-align: right !important;
+}
+
+.delete-button button {
+  background: none !important;
+  border: none;
+  padding-top: 0.2em !important;
+  padding-right: 1px !important;
+  cursor: pointer;
+}
+
+.no-items {
+  padding: 4em;
+  align-items: center;
+  text-align: center;
+}

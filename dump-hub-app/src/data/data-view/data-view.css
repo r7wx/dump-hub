@@ -1,0 +1,30 @@
+.folder {
+  text-align: left !important;
+  background-color: hsl(198, 0%, 0%);
+  color: white;
+}
+
+.table-content {
+  padding-top: 1.4em !important;
+  text-align: left !important;
+}
+
+.spinner {
+  margin-top: 4px !important;
+  height: 20px !important;
+  width: 20px !important;
+  min-height: 20px !important;
+  min-width: 20px !important;
+}
+
+.delete-button {
+  text-align: right !important;
+}
+
+.delete-button button {
+  background: none !important;
+  border: none;
+  padding-top: 0.3em !important;
+  padding-right: 1px !important;
+  cursor: pointer;
+}

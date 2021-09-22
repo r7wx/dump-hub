@@ -1,0 +1,14 @@
+.preview-area {
+  padding: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #dedede;
+  border: 0.05rem solid;
+  border-color: #acbac3;
+  color: #000;
+  border-radius: 0.15rem;
+  font-size: 0.65rem;
+  width: 100%;
+  line-height: 1.1;
+  height: 22.5em;
+}
