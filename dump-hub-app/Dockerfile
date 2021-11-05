@@ -1,4 +1,4 @@
-FROM node AS react-builder
+FROM node:16 AS react-builder
 WORKDIR /opt/dump-hub-app
 COPY . .
 RUN npm install
