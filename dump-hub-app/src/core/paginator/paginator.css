@@ -8,13 +8,11 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #e8e8e8;
   color: black;
   text-decoration: none;
   padding: 10px;
   background: none !important;
   border: none;
-  padding: 0 !important;
   cursor: pointer;
 }
 

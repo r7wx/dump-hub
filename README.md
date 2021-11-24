@@ -5,6 +5,10 @@
 <p align="center">
 Self hosted search engine for data leaks and password dumps
 </p>
+<div align="center">
+
+[![CodeFactor](https://www.codefactor.io/repository/github/r7wx/dump-hub/badge)](https://www.codefactor.io/repository/github/r7wx/dump-hub)
+</div>
 
 ---
 

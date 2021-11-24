@@ -4,7 +4,7 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-FROM nginx AS dump-hub-web
+FROM nginx:1.21.4 AS dump-hub-web
 WORKDIR /usr/share/nginx/html
 COPY --from=react-builder /opt/dump-hub-app/build .
 WORKDIR /etc/nginx
